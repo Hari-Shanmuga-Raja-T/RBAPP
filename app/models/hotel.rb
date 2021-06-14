@@ -1,4 +1,4 @@
 class Hotel < ApplicationRecord
-  has_many :log
-  has_many :room
+  has_many :logs
+  has_many :rooms
 end
